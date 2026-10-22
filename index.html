@@ -1,0 +1,521 @@
+```html
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0b0b12">
+    <meta name="description" content="Portfolio de Mathëo, étudiant en BTS SIO, passionné par le développement web et logiciel.">
+
+    <title>Mathëo Salavin-Moura - Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="background-glow"></div>
+
+    <!-- Menu -->
+    <header class="header">
+
+        <a class="logo" href="#accueil">M<span>.</span></a>
+
+        <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav">
+            <a href="#accueil">Accueil</a>
+            <a href="#apropos">À propos</a>
+            <a href="#competences">Compétences</a>
+            <a href="#projets">Projets</a>
+            <a class="nav-contact" href="#contact">Me contacter ↗</a>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <!-- Accueil -->
+        <section class="hero section" id="accueil">
+
+            <div class="hero-content reveal">
+
+                <div class="availability">
+                    <span class="dot"></span>
+                    Étudiant en BTS SIO · Orientation SLAM
+                </div>
+
+                <p class="eyebrow">BIENVENUE SUR MON PORTFOLIO</p>
+
+                <h1>
+                    Je transforme des idées en
+                    <span class="gradient-text">projets concrets.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Moi, c'est Mathëo. Je découvre, je construis et je progresse
+                    dans le développement web et logiciel, un projet à la fois.
+                </p>
+
+                <div class="hero-actions">
+
+                    <a class="button button-primary" href="#projets">
+                        Découvrir mes projets <span>↘</span>
+                    </a>
+
+                    <a class="button button-secondary"
+                       href="https://github.com/matheoSalavin"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Mon GitHub ↗
+                    </a>
+
+                </div>
+
+                <div class="hero-meta">
+                    <span>France</span>
+                    <span>Développement web & logiciel</span>
+                </div>
+
+            </div>
+
+
+            <div class="hero-visual reveal">
+
+                <div class="orbit orbit-one"></div>
+                <div class="orbit orbit-two"></div>
+
+                <div class="code-card">
+
+                    <div class="window-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <small>about-me.js</small>
+                    </div>
+
+                    <div class="code-content">
+
+                        <p><span class="purple">const</span> developer = {</p>
+
+                        <p class="indent">
+                            <span class="blue">name</span>:
+                            <span class="green">"Mathëo"</span>,
+                        </p>
+
+                        <p class="indent">
+                            <span class="blue">study</span>:
+                            <span class="green">"BTS SIO"</span>,
+                        </p>
+
+                        <p class="indent">
+                            <span class="blue">goal</span>:
+                            <span class="green">"SLAM"</span>,
+                        </p>
+
+                        <p class="indent">
+                            <span class="blue">curious</span>:
+                            <span class="orange">true</span>,
+                        </p>
+
+                        <p class="indent">
+                            <span class="blue">learning</span>:
+                            <span class="orange">true</span>
+                        </p>
+
+                        <p>};</p>
+
+                        <p class="code-comment">// Continuer à apprendre</p>
+
+                        <p>
+                            <span class="purple">while</span> (learning) {
+                        </p>
+
+                        <p class="indent">buildSomething();</p>
+
+                        <p>}</p>
+
+                    </div>
+
+                </div>
+
+                <div class="floating-badge badge-top">✦ Créativité</div>
+                <div class="floating-badge badge-bottom">⌘ Développement</div>
+
+            </div>
+
+            <a class="scroll-indicator" href="#apropos">
+                FAIRE DÉFILER <span>↓</span>
+            </a>
+
+        </section>
+
+
+        <!-- A propos -->
+        <section class="section about" id="apropos">
+
+            <div class="section-heading reveal">
+                <p class="eyebrow">01 / À PROPOS</p>
+                <h2>
+                    Apprendre en
+                    <span class="gradient-text">construisant.</span>
+                </h2>
+            </div>
+
+            <div class="about-grid">
+
+                <div class="about-text reveal">
+
+                    <p class="lead">
+                        Je suis étudiant en première année de BTS SIO, avec un intérêt
+                        particulier pour le développement d'applications.
+                    </p>
+
+                    <p>
+                        J'aime découvrir comment les choses fonctionnent, résoudre des
+                        problèmes et transformer mes idées en réalisations concrètes.
+                        À travers mes projets personnels, je cherche à consolider mes
+                        bases et à gagner en autonomie.
+                    </p>
+
+                    <p>
+                        Mon objectif est de progresser techniquement, d'apprendre les
+                        bonnes pratiques et de mettre mes compétences en pratique lors
+                        de mon stage.
+                    </p>
+
+                </div>
+
+
+                <div class="stats-grid reveal">
+
+                    <article class="stat-card">
+                        <span class="stat-icon">⌘</span>
+                        <strong>Web</strong>
+                        <span>Interfaces & applications</span>
+                    </article>
+
+                    <article class="stat-card">
+                        <span class="stat-icon">◇</span>
+                        <strong>Code</strong>
+                        <span>Logique & résolution</span>
+                    </article>
+
+                    <article class="stat-card">
+                        <span class="stat-icon">↗</span>
+                        <strong>Progression</strong>
+                        <span>Apprentissage continu</span>
+                    </article>
+
+                    <article class="stat-card">
+                        <span class="stat-icon">✦</span>
+                        <strong>Création</strong>
+                        <span>Projets personnels</span>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Mes compétences -->
+        <section class="section skills" id="competences">
+
+            <div class="section-heading reveal">
+
+                <p class="eyebrow">02 / COMPÉTENCES</p>
+
+                <h2>
+                    Mes outils pour
+                    <span class="gradient-text">créer.</span>
+                </h2>
+
+                <p>
+                    Les technologies que j'étudie et que je souhaite approfondir.
+                </p>
+
+            </div>
+
+
+            <div class="skills-grid reveal">
+
+                <article class="skill-card">
+                    <span class="skill-symbol html">1</span>
+                    <div>
+                        <h3>HTML5</h3>
+                        <p>Structure des pages web</p>
+                    </div>
+                </article>
+
+
+                <article class="skill-card">
+                    <span class="skill-symbol css">2</span>
+                    <div>
+                        <h3>CSS</h3>
+                        <p>Styles & responsive design</p>
+                    </div>
+                </article>
+
+
+                <article class="skill-card">
+                    <span class="skill-symbol js">3</span>
+                    <div>
+                        <h3>JavaScript</h3>
+                        <p>Interactions & logique</p>
+                    </div>
+                </article>
+
+
+                <article class="skill-card">
+                    <span class="skill-symbol php">4</span>
+                    <div>
+                        <h3>PHP</h3>
+                        <p>Développement côté serveur</p>
+                    </div>
+                </article>
+
+
+                <article class="skill-card">
+                    <span class="skill-symbol sql">5</span>
+                    <div>
+                        <h3>SQL / MySQL</h3>
+                        <p>Gestion des données</p>
+                    </div>
+                </article>
+
+
+                <article class="skill-card">
+                    <span class="skill-symbol python">6</span>
+                    <div>
+                        <h3>Python</h3>
+                        <p>Programmation & scripts</p>
+                    </div>
+                </article>
+
+
+                <article class="skill-card">
+                    <span class="skill-symbol csharp">7</span>
+                    <div>
+                        <h3>C#</h3>
+                        <p>Programmation logicielle</p>
+                    </div>
+                </article>
+
+            </div>
+
+            <p class="skills-note">
+                Je continue à pratiquer ces technologies à travers mes cours
+                et mes projets personnels.
+            </p>
+
+        </section>
+
+
+        <!-- Projets -->
+        <!-- Projets -->
+<section class="section projects" id="projets">
+
+    <div class="section-heading reveal">
+        <p class="eyebrow">03 / PROJETS</p>
+
+        <h2>
+            Ce que je
+            <span class="gradient-text">construis.</span>
+        </h2>
+
+        <p>
+            Quelques projets réalisés pour mettre en pratique ce que j'apprends.
+        </p>
+    </div>
+
+
+    <div class="projects-grid">
+
+        <!-- Portfolio -->
+        <article class="project-card reveal">
+
+            <div class="project-art art-portfolio">
+                <span class="art-window">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                    <b>m.</b>
+                    <em>Portfolio</em>
+                </span>
+            </div>
+
+            <div class="project-info">
+
+                <div class="project-top">
+                    <span class="project-category">WEB</span>
+                    <span class="project-number">01</span>
+                </div>
+
+                <h3>Portfolio personnel</h3>
+
+                <p>
+                    Mon portfolio personnel pour présenter mon parcours,
+                    mes compétences et les projets que je réalise.
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+
+                <a class="project-link"
+                   href="https://github.com/matheoSalavin"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Voir sur GitHub
+                </a>
+
+            </div>
+
+        </article>
+
+
+        <!-- PC Sentinel -->
+        <article class="project-card reveal">
+
+            <div class="project-art art-sentinel">
+
+                <div class="sentinel-preview">
+                    <div class="sentinel-top">
+                        <span>PC SENTINEL</span>
+                        <small>Monitoring</small>
+                    </div>
+
+                    <div class="sentinel-stats">
+                        <div>
+                            <span>CPU</span>
+                            <strong>32%</strong>
+                        </div>
+
+                        <div>
+                            <span>RAM</span>
+                            <strong>58%</strong>
+                        </div>
+
+                        <div>
+                            <span>DISQUE</span>
+                            <strong>71%</strong>
+                        </div>
+                    </div>
+
+                    <div class="sentinel-line"></div>
+                    <div class="sentinel-line small"></div>
+                </div>
+
+            </div>
+
+            <div class="project-info">
+
+                <div class="project-top">
+                    <span class="project-category">APPLICATION PYTHON</span>
+                    <span class="project-number">02</span>
+                </div>
+
+                <h3>PC Sentinel</h3>
+
+                <p>
+                    Une application Windows qui permet de surveiller
+                    les performances du PC et les processus en cours.
+                </p>
+
+                <div class="tags">
+                    <span>Python</span>
+                    <span>PySide6</span>
+                    <span>psutil</span>
+                    <span>PyQtGraph</span>
+                </div>
+
+                <span class="project-status">
+                    En développement
+                </span>
+
+            </div>
+
+        </article>
+
+    </div>
+
+</section>
+
+            <p class="projects-note">
+                Les projets en préparation sont identifiés comme tels.
+                Leurs liens seront ajoutés lorsque les dépôts seront disponibles.
+            </p>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section class="section contact" id="contact">
+
+            <div class="contact-panel reveal">
+
+                <p class="eyebrow">04 / CONTACT</p>
+
+                <h2>
+                    Un projet ou une
+                    <span class="gradient-text">opportunité ?</span>
+                </h2>
+
+                <p>
+                    Je souhaite continuer à progresser en développement et mettre mes
+                    compétences en pratique. N'hésitez pas à consulter mes réalisations
+                    sur GitHub.
+                </p>
+
+                <div class="contact-actions">
+
+                    <a class="button button-primary"
+                       href="https://github.com/matheoSalavin"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Visiter mon GitHub ↗
+                    </a>
+
+                    <a class="button button-secondary"
+                       href="mailto:matheo.salavin-moura@lyceefulbert.fr">
+                        Me contacter par e-mail
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <a class="logo" href="#accueil">
+            M<span>.</span>
+        </a>
+
+        <p>
+            Conçu et développé par Mathëo ·
+            <span id="year"></span>
+        </p>
+
+        <a href="#accueil">
+            Retour en haut ↑
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
